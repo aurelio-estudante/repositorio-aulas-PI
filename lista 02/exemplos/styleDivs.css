@@ -1,0 +1,35 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+
+div.header{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    height: 10vh;
+}
+
+div.menulateral{
+    width: 30%;
+    background-color: purple;
+    color: white;
+    float: left;
+    height: 80vh;
+}
+
+div.conteudo{
+    width: 70%;
+    background-color: blue;
+    color: white;
+    float: right;
+    height: 80vh;
+}
+
+div.rodape{
+    width: 100%;
+    color: red;
+    height: 10vh;
+    clear: both;
+    background-color: green;
+}
