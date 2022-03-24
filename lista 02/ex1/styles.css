@@ -1,0 +1,46 @@
+.site{
+    background-color: grey;
+}
+
+
+.header{
+    background-color: lightgray;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header h1{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.conteudo{
+    background-color: #FFFF99;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+}
+
+.conteudo .contato,.experiencia,.curriculo{
+    width: 30%;
+    float: left;
+    height: fit-content;
+    text-align: justify;
+    padding: 1vw;
+}
+
+.contato{
+    background-color: #F08275;
+}
+
+.experiencia{
+    background-color: #8CC9D9;
+}
+
+.curriculo{
+    background-color: #E6D9F2;
+}

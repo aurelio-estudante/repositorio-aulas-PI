@@ -1,0 +1,57 @@
+:root{
+    --tamanho-conteudo: 20vh;
+}
+
+.site{
+    width: 70%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: #B5DCB3;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-bottom: 0.2vh;
+}
+
+.footer{
+    background-color: #B5DCB3;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0.2vh;
+}
+
+.conteudo{
+    width: 100%;
+    height: var(--tamanho-conteudo);
+}
+
+.conteudo div{
+    float: left;
+    height: var(--tamanho-conteudo);
+}
+
+.conteudo h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu{
+    width: 39.9%;
+    background-color: grey;
+    margin-right: 0.1%;
+}
+
+.main-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.descricao{
+    width: 60%;
+    background-color: lightgray;
+}
