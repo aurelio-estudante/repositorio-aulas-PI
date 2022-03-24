@@ -1,0 +1,19 @@
+div.site{
+    display: grid;
+    grid-template-columns: 10vw auto;
+}
+
+div.conteudo{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+div.content>div{
+    background-color: antiquewhite;
+    border: 5px solid red;
+}
+
+.site>div{
+    background-color: aliceblue;
+    border: 5px solid red;
+}
