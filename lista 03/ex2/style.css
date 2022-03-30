@@ -1,0 +1,62 @@
+div.site{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 42vh auto;
+    column-gap: 3vh;
+    font-family: 'PT Sans', sans-serif;
+}
+
+div.content{
+    grid-row: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3vh;
+    width: 49vw;
+    border-bottom: 2px solid rgba(100,100,100,0.1);
+    margin-bottom: 3vh;
+}
+
+
+div.content>div{
+    width: 15vw;
+    height: 30vh;
+}
+
+div.content>div>h3{
+    font-size: 3vh;
+}
+
+.Header{
+    width: 45vw;
+    height: 20vh;
+    background-color: rgb(233, 233, 233);
+    border-radius: .2vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.Header>h1{
+    font-size: 4vh;
+    font-weight: bolder;
+}
+.Header>button{
+    background-image: linear-gradient(#5390C7,#0947C6);
+    color: white;
+    font-weight: 100;
+    width: 5vw;
+    height: 5vh;
+}
+
+button{
+    border-radius: .3vw;
+    padding: 1vh;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+    background-image: linear-gradient(white,lightgray);
+}
