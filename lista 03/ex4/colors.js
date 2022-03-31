@@ -4,11 +4,18 @@
 window.onload = function(){
     var color = 0;
     for(i=1;i<=8;i++){
-        colorRed = Math.floor(Math.random()*255).toString(3);
-        colorGreen = Math.floor(Math.random()*255).toString(3);
-        colorBlue = Math.floor(Math.random()*255).toString(3);
-        document.getElementById("child"+i).setAttribute("style","background-color: rgb("+colorRed+","+colorGreen+","+colorBlue+")");
-        document.getElementById("child"+i).setAttribute("style","color: #"+color);
+        r = Math.floor(Math.random()*255);
+        g = Math.floor(Math.random()*255);
+        b = Math.floor(Math.random()*255);
+        cor1 = "rgb("+r+","+g+","+b+");";
+        brightness = Math.sqrt((0.299*r^2)+(0.587*g^2)+(0.114*b^2));
+        console.log(brightness)
+        if(brightness>7.2){
+            brilho = "black";
+        }else{
+            brilho = "white";
+        }
+        document.getElementById("child"+i).setAttribute("style","background-color: "+cor1+"color: "+brilho);
         
     }
 }
