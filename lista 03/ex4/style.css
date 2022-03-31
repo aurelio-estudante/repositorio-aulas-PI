@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: .8vw;
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8vw;
+}
+
+.conteudo>div{
+    flex: 1 0 21%;
+    width: 15vw;
+    padding: 1vw;
+    border-radius: .3vw;
+    padding: 1vw;
+    box-shadow: .2vh .2vh .5vh rgb(114, 114, 114);
+}
+
+h2,p{
+    margin-left: 3vw;
+}
+
+.header,.footer{
+    width: 100%;
+    height: 15vh;
+    border-radius: .5vw;
+    background-color: rgb(152, 177, 192);
+    text-align: center;
+}
+
+footer{
+    margin-top: 4vh;
+}
