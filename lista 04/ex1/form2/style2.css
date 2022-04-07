@@ -1,0 +1,123 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+fieldset{
+    display: grid;
+    grid-template-rows: auto 46vh;
+    grid-template-columns: 24vw;
+    width: 24vw;
+    height: 56vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7764BD;
+    border: none;
+    padding: 2px;
+}
+
+legend{
+    display: flex;
+    float: left;
+    grid-row: 1/2;
+    color: white;
+    width: 24vw;
+    height: 10vh;
+    background-image: url("background-legend.png");
+    background-position: bottom;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+legend h1{
+    font-size: 2.5vh;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.342);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.divInputs{
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    width: 100%;
+    height: 43vh;
+    align-items: center;
+    background-color: white;
+    padding-top: 3vh;
+}
+span{
+    border: 1px solid rgba(196, 196, 196, 0.384);
+}
+
+.divInputs button{
+    width: 8vw;
+    height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    padding: .5vh;
+    font-size: 1.5vh;
+    font-weight: bold;
+    background-color: #7764BD;
+    color: white;
+    border: none;
+    border-radius: 1.5vh;
+    box-shadow: 0px 3px 8px rgba(43, 43, 43, 0.308);
+}
+
+.inputEmail,.inputNome,.inputPhone{
+    height: 5vh;
+    width: 20vw;
+    border: none;
+    padding-left: .5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+i{
+    margin-left: 1vh;
+    color: rgba(138, 138, 138, 0.479);
+}
+
+.mensagem{
+    padding-left: .5vw;
+    width: 20vw;
+    height: 12vh;
+    resize: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+.spanCheckbox{
+    display: flex;
+    font-size: 1.2vh;
+    align-items: center;
+    color: white;
+}
+.checkboxReceberEmail{
+    margin-right: .3vw;
+}
+
+::placeholder{
+    color: rgba(138, 138, 138, 0.479);
+}
+
+.span-message{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1vh;
+}
+
+textarea:focus,input:focus{
+    border: none;
+    outline: none;
+}
