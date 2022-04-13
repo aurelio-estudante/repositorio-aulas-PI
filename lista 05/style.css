@@ -1,0 +1,55 @@
+button{
+    width: 10vh;
+    height: 5vh;
+    color: white;
+    text-transform: uppercase;
+    background-color: green;
+}
+
+p{
+    width: fit-content;
+    min-width: 20vh;
+    min-height: 2vh;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divBotao{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 3vh;
+}
+.divBotao2{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    width: 20vw;
+    height: 2vh;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;;
+}
