@@ -1,0 +1,147 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.cracha{
+    height: 50vh;
+    width: 17.5vw;
+    display: grid;
+    border-radius: 0.5vw;
+    box-shadow:  0 0 5px 5px rgba(33, 33, 33, .33);
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-rows: repeat(3,auto), .5vh, auto;
+}
+.buraco{
+    width: 4vw;
+    height: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    border-radius: 0.5vh;
+    background-color: rgb(39, 39, 39);
+}
+.logoTitle{
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.inputLogo{
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: none;
+    font-size: 3vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    display: none;
+    width: 10vw;
+    box-shadow:  0 0 5px 5px rgba(33, 33, 33, .33);
+}
+.inputLogo:focus{
+    outline: none;
+}
+.btnLogo{
+    display: none;
+    width: 5vw;
+    height: 3vh;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 2px 2px rgb(33, 33, 33, 0.33);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: .8vh;
+}
+.btnLogo:active{
+    border: 2px solid lightgray;
+}
+.nomeEmpresa{
+    margin-left: auto;
+    margin-right: auto;
+}
+.empty-pfp{
+    width: 5vw;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divider{
+    background-color: lightgray;
+    height: 1vh;
+    align-self: flex-end;
+}
+.lowerPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+
+.funcaoFuncionario{
+    font-size: large;
+}
+
+.inputDefault{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: none;
+    font-size: 2vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 10vw;
+    box-shadow:  0 0 5px 5px rgba(33, 33, 33, .33);
+    display: none;
+}
+.inputDefaultWhite{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: none;
+    font-size: 2vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 10vw;
+    box-shadow:  0 0 5px 5px rgba(255, 255, 255, 0.493);
+    display: none;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+.btnNomeEmpresa{
+    width: 5vw;
+    height: 3vh;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 2px 2px rgb(33, 33, 33, 0.33);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: .8vh;
+    display: none;
+}
+.btnNomeEmpresaWhite{
+    width: 5vw;
+    height: 3vh;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  0 0 5px 5px rgba(255, 255, 255, 0.493);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: .8vh;
+    display: none;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}

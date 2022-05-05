@@ -1,0 +1,12 @@
+body{
+    background-color: #F5F5DD;
+}
+.subtitle{
+    margin-left: 1vw;
+    
+}
+input{
+    width: 3vw;
+    margin-left: 2.5vw;
+    margin-right: 0.25vw;
+}

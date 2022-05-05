@@ -1,0 +1,42 @@
+
+.table-head{
+    text-transform: uppercase;
+    background-color: rgb(245, 188, 66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+td{
+    padding: 4px;
+    width: 15vw;
+}
+
+input{
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    margin-left: 0.5vw;
+    margin-right: 5.25vw;
+}
+input::placeholder{
+    color: darkgray;
+}
+input:focus{
+    outline: none;
+}
+.confirmIcon{
+    margin-right: 1vw;
+    min-width: 1vw;
+}
+.trashIcon{
+    margin-left: 1vw;
+    min-width: 1vw;
+}
+.conteudoRow{
+    min-width: 10vw;
+    display: inline-block;
+}
+
+/*<i class="fa-solid fa-circle-check"></i>*/
